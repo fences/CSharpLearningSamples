@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{472D144F-E567-4020-BCCF-929AE3C33F76}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>CSharpLearingDay4</RootNamespace>
-    <AssemblyName>CSharpLearingDay4</AssemblyName>
+    <RootNamespace>CSharpLearingDay4_S1</RootNamespace>
+    <AssemblyName>CSharpLearingDay4-S1</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -67,6 +67,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
