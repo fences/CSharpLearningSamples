@@ -60,7 +60,7 @@
             this.txtSetPoint.Name = "txtSetPoint";
             this.txtSetPoint.Size = new System.Drawing.Size(100, 22);
             this.txtSetPoint.TabIndex = 1;
-            this.txtSetPoint.Text = "80";
+            this.txtSetPoint.Text = "60";
             // 
             // prgTemp
             // 
@@ -105,7 +105,7 @@
             // 
             // tmrDelay
             // 
-            this.tmrDelay.Interval = 1000;
+            this.tmrDelay.Interval = 500;
             this.tmrDelay.Tick += new System.EventHandler(this.tmrDelay_Tick);
             // 
             // label1
