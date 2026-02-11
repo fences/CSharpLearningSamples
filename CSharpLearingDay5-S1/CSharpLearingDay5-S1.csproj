@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{91F0A472-6574-480B-9FFA-FE2C6A49FE1C}</ProjectGuid>
+    <ProjectGuid>{49C239EF-F27B-4944-9926-91EB4DCD791C}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>CSharpLearingDay4_S2</RootNamespace>
-    <AssemblyName>CSharpLearingDay4-S2</AssemblyName>
+    <RootNamespace>CSharpLearingDay5_S1</RootNamespace>
+    <AssemblyName>CSharpLearingDay5-S1</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -46,16 +46,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Sample2.cs">
+    <Compile Include="Sample1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Sample2.Designer.cs">
-      <DependentUpon>Sample2.cs</DependentUpon>
+    <Compile Include="Sample1.Designer.cs">
+      <DependentUpon>Sample1.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Sample2.resx">
-      <DependentUpon>Sample2.cs</DependentUpon>
+    <EmbeddedResource Include="Sample1.resx">
+      <DependentUpon>Sample1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
